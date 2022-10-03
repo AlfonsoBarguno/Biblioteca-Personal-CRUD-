@@ -27,11 +27,11 @@
       <tr th:each="libroDto: ${DATA_LibrosDtoLista}">
         <td th:text="${libroDto.bookId}"></td>
         <td th:text="${libroDto.titulo}"></td>
-        <td th:text="${sucursalDto.autor}"></td>
-        <td th:text="${sucursalDto.editorial}"></td>
-        <td th:text="${sucursalDto.anyoDePublicacion}"></td>
-        <td th:text="${sucursalDto.genero}"></td>
-        <td th:text="${sucursalDto.tipo}"></td>
+        <td th:text="${libroDto.autor}"></td>
+        <td th:text="${libroDto.editorial}"></td>
+        <td th:text="${libroDto.anyoDePublicacion}"></td>
+        <td th:text="${libroDto.genero}"></td>
+        <td th:text="${libroDto.tipo}"></td>
 
 
         <td><a class="btn btn-outline-info"

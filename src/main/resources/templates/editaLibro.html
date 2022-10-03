@@ -20,6 +20,14 @@
                                                        th:field="*{titulo}"> <br>
       <label class="cloud-label">Autor</label>
       <input type="text" th:field="*{autor}"> <br>
+      <label class="cloud-label">Editorial</label>
+      <input type="text" th:field="*{editorial}"> <br>
+      <label class="cloud-label">Año de publicación</label>
+      <input type="number" th:field="*{anyoDePublicacion}"> <br>
+      <label class="cloud-label">Género</label>
+      <input type="text" th:field="*{genero}"> <br>
+      <label class="cloud-label">Tipo</label>
+      <input type="text" th:field="*{tipo}"> <br>
     </div>
     <button type="submit" class="btn btn-outline-success">Guardar</button>
     <a class="btn btn-outline-danger" th:href="@{/ListaLibros}" role="button">Descartar</a>
