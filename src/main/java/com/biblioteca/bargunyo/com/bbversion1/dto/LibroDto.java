@@ -1,6 +1,5 @@
 package com.biblioteca.bargunyo.com.bbversion1.dto;
 
-import javax.persistence.Column;
 import java.io.Serializable;
 
 public class LibroDto implements Serializable {
@@ -57,7 +56,7 @@ public class LibroDto implements Serializable {
         return anyoDePublicacion;
     }
 
-    public void setAnyoDePublicacion(int anyoDePublicacion) {
+    public void setAnyoDePublicacion(Integer anyoDePublicacion) {
         this.anyoDePublicacion = anyoDePublicacion;
     }
 
