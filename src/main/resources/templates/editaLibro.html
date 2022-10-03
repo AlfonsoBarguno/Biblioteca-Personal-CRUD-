@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+  <th:block th:insert="Fragments/head :: head"></th:block>
+</head>
+<body>
+<div class="container">
+  <div th:insert="Fragments/BodyHeader :: div"></div>
+
+
+  <h3>Editar</h3>
+  <form th:object="${DATA_LibrosDtoFormulario}" method="post"
+        th:action="@{/GuardarLibro}">
+
+    <input type="hidden" th:field="*{bookId}">
+
+    <div class="form-group">
+
+      <label class="cloud-label">Título</label> <input type="text"
+                                                       th:field="*{titulo}"> <br>
+      <label class="cloud-label">Autor</label>
+      <input type="text" th:field="*{autor}"> <br>
+    </div>
+    <button type="submit" class="btn btn-outline-success">Guardar</button>
+    <a class="btn btn-outline-danger" th:href="@{/ListaLibros}" role="button">Descartar</a>
+
+  </form>
+
+</div>
+
+</body>
+</html>
