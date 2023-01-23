@@ -1,5 +1,5 @@
 # Personal Library
-![cover](https://github.com/AlfonsoBarguno/Biblioteca-Personal-CRUD-/blob/main/PERSONALLIBRARY.png)
+![cover](https://github.com/AlfonsoBarguno/Biblioteca-Personal-CRUD-/blob/master/PERSONALLIBRARY.png)
 
 ## Table of contents
 * [General info](#general-info)
