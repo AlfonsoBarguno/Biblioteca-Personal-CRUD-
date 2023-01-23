@@ -1,4 +1,4 @@
-# BankAppProject
+# Personal Library
 ![cover](https://github.com/AlfonsoBarguno/Biblioteca-Personal-CRUD-/blob/main/PERSONALLIBRARY.png)
 
 ## Table of contents
